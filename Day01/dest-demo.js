@@ -9,8 +9,8 @@ console.log("b=",b);
 console.log("c=",c);
 // object
 const person = {
-    name: "Chung Trinhj",
-    age: 25,
+    name: "Chi Du",
+    age: 19,
     city: "New York"
 };
 console.log(person.name); // ✅ John
