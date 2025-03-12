@@ -19,12 +19,12 @@ class DcdStudent extends Component {
       <>
         <tr>
           <td>{key}</td>
-          <td>{renderDcdStudent.dcdId}</td>
-          <td>{renderDcdStudent.dcdStudentName}</td>
-          <td>{renderDcdStudent.dcdAge}</td>
-          <td>{renderDcdStudent.dcdGender}</td>
+          <td>{renderDcdStudent.dcdID}</td>
+          <td>{renderDcdStudent.dcdFullName}</td>
+          <td>{renderDcdStudent.dcdUserName}</td>
+          <td>{renderDcdStudent.dcdPassWord}</td>
           <td>
-            <div className="template-demo">
+          <div className="template-demo">
               <button type="button" className="btn btn-danger btn-icon-text" 
                     onClick={()=>this.dcdHandleView(renderDcdStudent)}
                     >

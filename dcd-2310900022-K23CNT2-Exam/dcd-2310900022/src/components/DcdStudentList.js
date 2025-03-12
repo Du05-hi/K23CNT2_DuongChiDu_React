@@ -29,9 +29,9 @@ class DcdStudentList extends Component {
               <tr>
                 <th>#</th>
                 <th>Mã sinh viên</th>
-                <th>Tên sinh viên</th>
-                <th>Tuổi</th>
-                <th>Giới tính</th>
+                <th>Họ Và Tên sinh viên</th>
+                <th>UserName</th>
+                <th>PassWord</th>
                 <th>Hành động</th>
               </tr>
             </thead>

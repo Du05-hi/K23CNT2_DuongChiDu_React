@@ -8,10 +8,9 @@ class DcdApp extends Component {
     super(props);
     this.state = {
       dcdStudents:[
-        {dcdId:"SV001",dcdStudentName:"Duong Chi Du",dcdAge:20,dcdGender:"Nam",dcdBirthday:"30/07/2005",dcdBirthPlace:"VP", dcdAddress:"6B Ngõ 83B Tân Triều Thanh Trì Hà NNội"},
-        {dcdId:"SV002",dcdStudentName:"Le Nhu Quynh",dcdAge:19,dcdGender:"Nữ",dcdBirthday:"11/12/2006",dcdBirthPlace:"TB", dcdAddress:"Lương Ngọc Quyến"},
-        {dcdId:"SV003",dcdStudentName:"Tần Thủy Hoàng",dcdAge:24,dcdGender:"Nam",dcdBirthday:"25/05/2002",dcdBirthPlace:"DN", dcdAddress:"Trung Quốc"},
-        {dcdId:"SV004",dcdStudentName:"Hoàng Thuỳ Linh",dcdAge:23,dcdGender:"Nữ",dcdBirthday:"25/05/2001",dcdBirthPlace:"QN", dcdAddress:"Hồ chí minh"},
+        {dcdID:"SV001",dcdFullName:"Duong Chi Du",dcdUserName:"Du",dcdPassWord:"300705"},
+        {dcdID:"SV002",dcdFullName:"Le Nhu Quynh",dcdUserName:"Quynh",dcdPassWord:"11111"},
+        {dcdID:"SV003",dcdFullName:"Hoàng Thuỳ Linh",dcdUserName:"Linh",dcdPassWord:"12345"},
       ],
       dcdStudent:"",
 
@@ -32,7 +31,7 @@ class DcdApp extends Component {
     return (
       <div>
         <h1 className="text-center">
-          Duong Chi Du - K23CNT2 - Mini Project1
+          Duong Chi Du - K23CNT2 - 2310900022 - Exam
         </h1>
         <section className="container-fluid mt-3">
           <div className="row">
@@ -47,7 +46,7 @@ class DcdApp extends Component {
               </div>
             </div>
 
-            <div className="col-5 grid-margin">
+            <div className="col-3 grid-margin">
               {/* form  */}
               <DcdForm  renderDcdStudent = {this.state.dcdStudent}/>
             </div>
